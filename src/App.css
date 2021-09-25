@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+body {
+  font-family: "Roboto Condensed" sans-serif;
+}
+
+:root {
+  --primary-white: #fff;
+  --primary-aguamarina: #3ca6b1;
+  --primary-dark: rgba(255, 255, 255, 0);
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +48,46 @@
     transform: rotate(360deg);
   }
 }
+/*******************NAVBAR***********************************/
+.logo {
+  width: 4.25rem;
+  text-align-last: justify;
+  color: var(--primary-white) !important;
+  text-decoration-color: #fff;
+}
+
+/************************ MENU LINKS****************************/
+nav a.nav-link {
+  font-size: 0.8rem;
+  /*font-weight: 500;*/
+  letter-spacing: 0.0375rem;
+  cursor: pointer-events;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid var(--primary-aguamarina);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-aguamarina);
+}
+/************************ Minuto 39  https://www.youtube.com/watch?v=vD72tRK8mC4&t=1952s
+****************************/

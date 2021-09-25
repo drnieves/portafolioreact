@@ -1,0 +1,11 @@
+[33mcommit 50fe919d00df72865e95254920dfabb6d2e9d924[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: drnieves <ernestonievesurosario@gmail.com>
+Date:   Thu Sep 23 20:05:23 2021 -0500
+
+    project setup
+
+[33mcommit 7bf4a0c5d82c3009be5f7385dab00db7e4bb314a[m
+Author: drnieves <ernestonievesurosario@gmail.com>
+Date:   Thu Sep 23 19:35:59 2021 -0500
+
+    Initialize project using Create React App
